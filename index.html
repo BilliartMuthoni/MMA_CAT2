@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save Our Wildlife</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="container">
+
+        <h1>Save Our Wildlife</h1>
+
+        <video id="wildlifeVideo" controls aria-label="Wildlife conservation promotional video">
+            <source src="wildlife.mp4" type="video/mp4">
+            <track kind="captions" src="captions.vtt" srclang="en" label="English" default>
+            Your browser does not support the video tag. Please download
+            <a href="wildlife.mp4">the wildlife video</a> instead.
+        </video>
+
+        <p class="description">
+            Our wildlife is under threat from habitat loss, poaching and climate change.
+            Watch this short film to learn how you can help protect endangered species
+            and support conservation efforts in your community.
+        </p>
+
+        <button id="toggleBtn" class="toggle-btn" aria-label="Play or hide the video">
+            Play / Hide Video
+        </button>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
